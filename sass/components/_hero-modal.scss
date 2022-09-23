@@ -227,6 +227,10 @@
     &::placeholder {
         font-size: 12px;
     }
+    &:focus,
+    &:hover {
+        border-color: $color-button-text;
+}
 }
 
 .register-form__agreement {

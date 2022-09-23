@@ -425,6 +425,9 @@ nav {
 .register-form__message::placeholder {
   font-size: 12px;
 }
+.register-form__message:focus, .register-form__message:hover {
+  border-color: rgb(33, 150, 243);
+}
 
 .register-form__agreement {
   display: -webkit-box;
