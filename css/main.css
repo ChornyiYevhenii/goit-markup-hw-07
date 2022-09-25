@@ -246,6 +246,7 @@ nav {
 
 /* Модальное окно */
 .backdrop {
+  z-index: 5;
   position: fixed;
   top: 0;
   left: 0;
@@ -974,7 +975,6 @@ nav {
 }
 
 .footer__subscribe-form {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
